@@ -6,7 +6,7 @@ The source contains [examples](https://github.com/Keksuccino/SimpleEvents/tree/m
 Take a look at the [Main](https://github.com/Keksuccino/SimpleEvents/blob/master/src/de/keksuccino/example/Main.java) class to get started.
 
 # Licensing
-SimpleEvents is licensed under GPLv3.<br>
+SimpleEvents is licensed under MIT.<br>
 See LICENSE.md for more information.
 
 # Copyright
