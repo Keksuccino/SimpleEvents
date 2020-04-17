@@ -13,7 +13,7 @@ public class EventHandler {
 	private Map<String, List<EventContainer>> events = new HashMap<String, List<EventContainer>>();
 	
 	/**
-	 * This will register all all public (static and non-static) methods of the given object instance annotated with {@link EventSubscriber}.
+	 * This will register all public (static and non-static) methods of the given object instance annotated with {@link EventSubscriber}.
 	 */
 	public void registerEventsFrom(Object instance) {
 		for (Method m : instance.getClass().getDeclaredMethods()) {
@@ -33,7 +33,7 @@ public class EventHandler {
 	}
 	
 	/**
-	 * This will register all all public static methods of the given class annotated with {@link EventSubscriber}.
+	 * This will register all public static methods of the given class annotated with {@link EventSubscriber}.
 	 */
 	public void registerEventsFrom(Class<?> c) {
 		for (Method m : c.getDeclaredMethods()) {
