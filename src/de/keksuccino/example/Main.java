@@ -10,7 +10,7 @@ public class Main {
 		
 		//##### NOTES #####
 		
-		// - All events needs to be a subclass of EventBase (take a look at TestEvent.java for an example)
+		// - All events need to be a subclass of EventBase (take a look at TestEvent.java for an example)
 		// - Event methods have to be annotated with @EventSubscriber and needs to have the event type 
 		//   specified as parameter (Events.java has some examples) 
 		
